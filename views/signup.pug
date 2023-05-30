@@ -1,0 +1,41 @@
+extend base
+
+block append head 
+    title Sign up
+    link(rel='stylesheet' href='/css/login-signup.css')
+    // font roboto
+    link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap' rel='stylesheet')
+    script(src='/js/signup.js')
+
+block content 
+    main.main
+        .flex-container 
+            .signup-left-form
+                img(src='img/image_logo.png' alt='')
+                h5 Sign up now and unlock endless adventure!
+                h2.heading-welcome.ma-bt-lg Welcome to our website !
+                h5 Discover new destinations and 
+                    br
+                    | make unforgettable memories with our website 
+            .signup-form
+                h2.heading-secondary.ma-bt-lg Sign up
+                form.form.form--signup(action='/signup', method='POST')
+                    .form__group
+                        label.form__label(for='name') Name
+                        input#name.form__input(type='text', name='name', required)
+                    .form__group
+                        label.form__label(for='email') Email address
+                        input#email.form__input(type='email', name = 'email', required)
+                    .form__group
+                        label.form__label(for='phone') Phone number
+                        input#phone.form__input(type='phone', name = 'phone', required)
+                    .form__group
+                        label.form__label(for='password') Password
+                        input#password.form__input(type='password', name='password', minlength='8', required)
+                    .form__group
+                        label.form__label(for='passwordConfirm') Confirm Password
+                        input#passwordConfirm.form__input(type='password', name='passwordConfirm',minlength='8', required)
+                    .form__group
+                        button.btn--signUp Sign up
+                    a.loginButton(href='/login') Already have an account? Login
+

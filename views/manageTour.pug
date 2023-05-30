@@ -1,0 +1,224 @@
+extend base
+
+block append head 
+  title Manage Tour
+  link(rel='stylesheet' href='/css/manageTour.css')
+
+block content
+  .table(style='margin-bottom: 4rem;')
+    section.table_header
+      h2 Tour List
+      .search
+        input(type='search' placeholder='Search Data...')
+        i.fa-solid.fa-magnifying-glass
+    .add-new-tour-button
+      button.btn.btn-light(type='button' data-bs-toggle='modal' data-bs-target='#exampleModalAdd')
+        | Add
+        | New Tour 
+        i.fa-sharp.fa-solid.fa-plus
+    section.container-table 
+      table
+        thead
+          tr
+            th  Tour Name 
+            th  Start Day 
+            th  Duration 
+            th  Tour Price 
+            th  Tour Guide 
+        tbody
+          each tour in tours
+            tr
+              td= tour.name
+              td= tour.startDates[0].toLocaleString('en-us', {month: 'long', year: 'numeric'})
+              td= tour.duration
+              td= tour.price
+              td= tour.guides[0].name
+              td
+                i.fa-regular.fa-pen-to-square(data-bs-toggle='modal' data-bs-target='#exampleModalEdit')  
+              td
+                i.fa-regular.fa-trash-can(data-bs-toggle='modal' data-bs-target='#exampleModalDelete')
+          //- tr
+          //-   td  2 
+          //-   td  Phu Quoc Island 
+          //-   td  23/2/2023 
+          //-   td  30/3/2023 
+          //-   td  $500 
+          //-   td  Thuong Nguyen 
+          //-   td
+          //-     i.fa-regular.fa-pen-to-square(data-bs-toggle='modal' data-bs-target='#exampleModalEdit')  
+          //-   td
+          //-     i.fa-regular.fa-trash-can(data-bs-toggle='modal' data-bs-target='#exampleModalDelete')
+          //- tr
+          //-   td  3 
+          //-   td  Phu Quoc Island 
+          //-   td  23/2/2023 
+          //-   td  30/3/2023 
+          //-   td  $500 
+          //-   td  Thuong Nguyen 
+          //-   td
+          //-     i.fa-regular.fa-pen-to-square(data-bs-toggle='modal' data-bs-target='#exampleModalEdit')  
+          //-   td
+          //-     i.fa-regular.fa-trash-can(data-bs-toggle='modal' data-bs-target='#exampleModalDelete')
+          //- tr
+          //-   td  4 
+          //-   td  Phu Quoc Island 
+          //-   td  23/2/2023 
+          //-   td  30/3/2023 
+          //-   td  $500 
+          //-   td  Thuong Nguyen 
+          //-   td
+          //-     i.fa-regular.fa-pen-to-square(data-bs-toggle='modal' data-bs-target='#exampleModalEdit')  
+          //-   td
+          //-     i.fa-regular.fa-trash-can(data-bs-toggle='modal' data-bs-target='#exampleModalDelete')
+          //- tr
+          //-   td  5 
+          //-   td  Phu Quoc Island 
+          //-   td  23/2/2023 
+          //-   td  30/3/2023 
+          //-   td  $500 
+          //-   td  Thuong Nguyen 
+          //-   td
+          //-     i.fa-regular.fa-pen-to-square(data-bs-toggle='modal' data-bs-target='#exampleModalEdit')
+          //-   td
+          //-     i.fa-regular.fa-trash-can(data-bs-toggle='modal' data-bs-target='#exampleModalDelete')
+    .row
+      .page-number
+        nav(aria-label='Page navigation example')
+          ul.pagination
+            li.page-item
+              a.page-link(href='#' aria-label='Previous')
+                span(aria-hidden='true') &laquo;
+            li.page-item.active
+              a.page-link(href='#') 1
+            li.page-item
+              a.page-link(href='#') 2
+            li.page-item
+              a.page-link(href='#') 3
+            li.page-item
+              a.page-link(href='#' aria-label='Next')
+                span(aria-hidden='true') &raquo;
+  // Modal Delete
+  #exampleModalDelete.modal.fade(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
+    .modal-dialog
+      .modal-content
+        button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close' style='margin-left: 94%; margin-top: 0.5rem;')
+        img(src='img/alert-icon.png' alt='' style='width: 20%; margin-left: auto; margin-right: auto; margin-bottom: 0.4rem;')
+        .modal-header(style='justify-content: center;')
+          h1#exampleModalLabel.modal-title.fs-5(style='text-transform: uppercase; font-weight: bold; letter-spacing: 1.2px;') Remove Alert!
+        .modal-body(style='margin-left: auto; margin-right: auto;')
+          h1.fs-5 Are you sure you want to delete this item?
+        .modal-footer(style='justify-content: center;')
+          button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Cancel
+            a(href="/manageTour")
+          button.btn.btn-danger(type='button') Confirm
+            a(href="#") 
+  // Modal Edit
+  #exampleModalEdit.modal.fade(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
+    .modal-dialog.modal-xl
+      .modal-content
+        .modal-header
+          h1#exampleModalLabel.modal-title.fs-7(style='text-transform: uppercase; font-weight: bold; letter-spacing: 1.3px; margin-left: 40%;')
+            | Edit Tour
+          button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+        .modal-body(style='background-color: #8ccca346;')
+          .edit-tour-form
+            form
+              label(for='tourname') Tour name: 
+              br
+              input#edittourname(type='text' name='tourname' value='Phu Quoc Island' required='')
+              br
+              label(for='startday') Start Day: 
+              input#editstartday(type='date' name='startday' value='2023-07-22' min='2023-01-01' max='2023-12-31' required='')
+              label(for='endday') Duration: 
+              input#editendday(type='number' name='endday' value='2023-07-29' min='2023-01-01' max='2023-12-31' required='')
+              br
+              label(for='tourprice') Tour Price: 
+              br
+              input#edittourprice(type='number' name='tourprice' value='500' required='')
+              br
+              label(for='tourguide') Tour Guide: 
+              br
+              input#edittourguide(type='text' name='tourguide' value='Thuong Nguyen' required='')
+              br
+              label(for='maxGroupSize') Max group size: 
+              br
+              input#editmaxGroupSize(type='text' name='maxGroupSize' value='2' required='')
+              br
+              label(for='difficulty') Difficulty: 
+              br
+              select(name='difficulty')
+                option(value='easy', selected=true) Easy
+                option(value='medium', selected=true) Medium
+                option(value='difficult', selected=true) Difficult
+              br
+              label(for='summary') Summary: 
+              br
+              input#editsummary(type='text' name='summary' value='Good' required='')
+              br
+              label(for='editphoto') Image Cover: 
+              br
+              input(type='file', accept='image/*', id='editphoto', name='photo')
+              br
+              
+        .modal-footer(style='justify-content: center;')
+          button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Close
+            a(href="/manageTour")
+          button.btn.btn-success(type='button') Save changes
+            a(href="#")
+  // Modal Add
+  #exampleModalAdd.modal.fade(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
+    .modal-dialog.modal-xl
+      .modal-content
+        .modal-header
+          h1#exampleModalLabel.modal-title.fs-7(style='text-transform: uppercase; font-weight: bold; letter-spacing: 1.3px; margin-left: 40%;')
+            | Add New Tour
+          button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+        .modal-body(style='background-color: #8ccca346;')
+          .add-tour-form
+            form
+              label(for='tourname') Tour name: 
+              br
+              input#tourname(type='text' name='tourname' placeholder='Eg. Phu Quoc Island' required='')
+              br
+              label(for='startday') Start Day: 
+              input#startday(type='date' name='startday' value='' min='2023-01-01' max='2023-12-31' required='')
+              label(for='endday') Duration: 
+              input#endday(type='number' name='endday' value='' min='2023-01-01' max='2023-12-31' placeholder='Eg. 10 Days' required='')
+              br
+              label(for='tourprice') Tour Price: 
+              br
+              input#tourprice(type='number' name='tourprice' value='' placeholder='Eg. $500' required='')
+              br
+              label(for='tourguide') Tour Guide: 
+              br
+              input#tourguide(type='text' name='tourguide' value='' placeholder='Eg. Thuong Nguyen' required='')
+              br
+              label(for='maxGroupSize') Max group size: 
+              br
+              input#maxGroupSize(type='text' name='maxGroupSize' placeholder='Eg. 30' value='' required='')
+              br
+              label(for='difficulty') Difficulty: 
+              br
+              select#difficulty(name='difficulty')
+                option(value='easy', selected=true) Easy
+                option(value='medium', selected=true) Medium
+                option(value='difficult', selected=true) Difficult
+              br
+              label(for='summary') Summary: 
+              br
+              input#summary(type='text' name='summary' value='' placeholder='Summary About Your Tour' required='')
+              br
+              label(for='description') Description: 
+              br
+              input#description(type='text' name='description' placeholder='Description Of Your Tour' value='' required='')
+              br
+              label(for='photo') Image Cover: 
+              br
+              input(type='file', accept='image/*', id='photo', name='photo')
+              br
+        .modal-footer(style='justify-content: center;')
+          button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Close
+            a(href="/manageTour")
+          button.btn.btn-success(type='button' data-bs-dismiss='modal') Add New Tour
+            a(href="/addNewTour")
+          

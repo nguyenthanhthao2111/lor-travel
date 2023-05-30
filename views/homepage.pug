@@ -1,0 +1,248 @@
+extend base
+
+block content
+  #main
+      #slider
+        #carouselExampleCaptions.carousel.slide(data-bs-ride='false')
+          .carousel-indicators
+            button.active(type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='1' aria-label='Slide 2')
+            button(type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='2' aria-label='Slide 3')
+          .carousel-inner
+            .carousel-item.active
+              img.d-block(src='./img/img-3.jpg' style='height:100%; width:100%' alt='')
+            .carousel-item
+              img.d-block(src='./img/img-2.jpg' style='height:100%; width:100%' alt='')
+            .carousel-item
+              img.d-block(src='./img/img-1.jpg' style='height:100%; width:100%' alt='')
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
+          .slider-text
+            h1.text-break OUTDOORS
+            p.text-description IS WHERE LIFE HAPPENS 
+          .d-grid.gap-2
+            a(href="/all-tours") 
+               button.btn-booking.btn-primary(type='button') BOOKING NOW
+      
+      // FLIPCARD
+      section.flipcard
+        h2.flipcard-title.text-center.pb-3.text-uppercase.fw-bold
+          | Most Popular Tour
+        // EXPAND LARGE
+        .container.text-center.d-none.d-lg-block
+          // Row1
+          .row.pb-lg-5
+            .col-lg-4
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-12.jpg' alt='...')
+                  .middle
+                    a(href="/tour/phu-quoc-island")
+                      button.btn.btn-lg(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Phu Quoc Island
+                  ul.list-group.list-group-flush
+                    li.list-group-item 7 days tours
+                    li.list-group-item up to 10 people
+                    li.list-group-item 1 tour guides
+            .col-lg-4
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-10.jpg' alt='')
+                  .middle
+                    a(href="/tour/mui-ne-sand-dunes")
+                      button.btn.btn-lg(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Mui Ne Sand Dunes
+                  ul.list-group.list-group-flush
+                    li.list-group-item 10 days tours
+                    li.list-group-item up to 20 people
+                    li.list-group-item 1 tour guides
+            .col-lg-4
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-6.jpg' alt='')
+                  .middle
+                    a(href="/tour/hue-ancient-capital")
+                      button.btn.btn-lg(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Hue Ancient Capital
+                  ul.list-group.list-group-flush
+                    li.list-group-item 10 days tours
+                    li.list-group-item up to 30 people
+                    li.list-group-item 2 tour guides
+          // Row2
+          .row.pb-lg-5
+            .col-lg-4
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-11.jpg' alt='')
+                  .middle
+                    a(href="/tour/hoang-su-phi")
+                      button.btn.btn-lg(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Hoang Su Phi
+                  ul.list-group.list-group-flush
+                    li.list-group-item 7 days tours
+                    li.list-group-item up to 30 people
+                    li.list-group-item 2 tour guides
+            .col-lg-4
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-16.jpg' alt='')
+                  .middle
+                    a(href="/tour/phong-nha-ke-bang")
+                      button.btn.btn-lg(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Phong Nha Ke Bang
+                  ul.list-group.list-group-flush
+                    li.list-group-item 3 days tours
+                    li.list-group-item up to 30 people
+                    li.list-group-item 1 tour guides
+            .col-lg-4
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-8.jpg' alt='')
+                  .middle
+                    a(href="/tour/dalat")
+                      button.btn.btn-lg(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Da Lat
+                  ul.list-group.list-group-flush
+                    li.list-group-item 15 days tours
+                    li.list-group-item up to 20 people
+                    li.list-group-item 2 tour guides
+          .btn-discover
+            a(href="/all-tours").button.btn.btn-md(type='button')
+              | Discover All Tours
+        // LARGE
+        .container.text-center.d-lg-none.d-block
+          // Row1
+          .row.pb-lg-5
+            .col-xl.pb-3
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-12.jpg' alt='...')
+                  .middle
+                    a(href="/tour/phu-quoc-island")
+                      button.btn.btn-md(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Phu Quoc Island
+                  ul.list-group.list-group-flush
+                    li.list-group-item 7 days tours
+                    li.list-group-item up to 10 people
+                    li.list-group-item 1 tour guides
+            .col-xl.pb-3
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-10.jpg' alt='')
+                  .middle
+                    button.btn.btn-md(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Mui Ne Sand Dunes
+                  ul.list-group.list-group-flush
+                    li.list-group-item 10 days tours
+                    li.list-group-item up to 20 people
+                    li.list-group-item 1 tour guides
+            .col-xl.pb-3
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-6.jpg' alt='')
+                  .middle
+                    button.btn.btn-md(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Hue Ancient Capital
+                  ul.list-group.list-group-flush
+                    li.list-group-item 10 days tours
+                    li.list-group-item up to 30 people
+                    li.list-group-item 2 tour guides
+          // Row2
+          .row.pb-lg-5
+            .col-xl.pb-3
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-11.jpg' alt='')
+                  .middle
+                    button.btn.btn-md(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Hoang Su Phi
+                  ul.list-group.list-group-flush
+                    li.list-group-item 7 days tours
+                    li.list-group-item up to 30 people
+                    li.list-group-item 2 tour guides
+            .col-xl.pb-3
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-16.jpg' alt='')
+                  .middle
+                    button.btn.btn-md(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Phong Nha Ke Bang
+                  ul.list-group.list-group-flush
+                    li.list-group-item 3 days tours
+                    li.list-group-item up to 30 people
+                    li.list-group-item 1 tour guides
+            .col-xl.pb-3
+              .card(style='width: 26rem; margin-left: auto; margin-right: auto;')
+                .img-effect
+                  img.card-img-top(src='./img/img-8.jpg' alt='')
+                  .middle
+                    button.btn.btn-md(type='button') Detail
+                .card-body
+                  h5.card-title.text-center.text-uppercase Da Lat
+                  ul.list-group.list-group-flush
+                    li.list-group-item 15 days tours
+                    li.list-group-item up to 20 people
+                    li.list-group-item 2 tour guides
+          .btn-discover
+            button.btn.btn-md(type='button') Discover All Tours
+
+      // POST
+      section.post
+        .container
+          .row
+            .col-1
+            .col-10
+              h2.post-title.text-center.pb-3.text-uppercase.fw-bold We make people genuinely happy
+              .post-card.pb-3
+                .card.mb-3.post-card-1
+                  .row.no-gutters
+                    .col-md-4
+                      img.card-img(src='./img/img-14.jpg' alt='')
+                    .col-md-8
+                      .card-body
+                        h5.card-title.text-uppercase.fw-bold Interesting experiences in Vietnam!
+                        p.card-text.post-text
+                          | Hoi An, located in central Vietnam, is a charming and historic town that has become a popular
+                          | destination for travelers seeking a taste of Vietnamese culture and history.
+                          | Known for its beautiful beaches, ancient architecture, and delicious cuisine, Hoi An has
+                          | something to offer everyone.
+                          | If you&apos;re considering a trip to Hoi An, here are some things you should know.
+                        button.btn.btn-sm(type='button' onclick='readMore(this)') Read More
+                .card.mb-3.post-card-2
+                  .row.no-gutters
+                    .col-md-4
+                      img.card-img(src='./img/img-15.jpg' alt='')
+                    .col-md-8
+                      .card-body
+                        h5.card-title.text-uppercase.fw-bold A travel to Mui Ne in Vietnam
+                        p.card-text.post-text
+                          | Mui Ne, located in southern Vietnam, is a beautiful coastal town that has
+                          | become a popular destination for travelers seeking sun, sand, and sea.
+                          | Known for its stunning beaches, towering sand dunes, and delicious seafood, Mui Ne has something
+                          | to offer everyone.
+                          | If you&apos;re considering a trip to Mui Ne, here are some things you should know.
+                        button.btn.btn-sm(type='button' onclick='readMore(this)') Read More
+
+          //
+            <div class="btn">
+            <a href="#" class="more-btn">Read more post <i class="bi bi-arrow-right"></i></a>
+            </div>
+  script(src='/js/main.js' defer='')
+            
+
+    

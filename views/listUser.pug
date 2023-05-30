@@ -1,0 +1,51 @@
+extend base
+
+block append head 
+    title User List
+    link(rel='stylesheet' href='/css/listUser.css')
+
+block content 
+    main.table
+        section.header
+            h1 Customers List
+            .search
+                input(type='search' placeholder='Search Data...')
+                i.fa-solid.fa-magnifying-glass
+        section.container
+            table
+                thead
+                    tr
+                        th  Full Name 
+                        th  Phone
+                        th  Email 
+                        th  Role 
+                        th  Status
+                tbody
+                    each user in users
+                        tr
+                            td= user.name 
+                            td= user.phone
+                            td= user.email
+                            td= user.role  
+                            td= user.active 
+                            td
+                                i.fa-regular.fa-pen-to-square  
+                            td
+                                i.fa-sharp.fa-solid.fa-xmark
+                    
+    .row
+        .page-number
+            nav(aria-label='...')
+                ul.pagination
+                    li.page-item.disabled
+                        a.page-link Previous
+                    li.page-item
+                        a.page-link(href='#') 1
+                    li.page-item.active(aria-current='page')
+                        a.page-link(href='#') 2
+                    li.page-item
+                        a.page-link(href='#') 3
+                    li.page-item
+                        a.page-link(href='#') Next
+
+            

@@ -1,0 +1,34 @@
+html,
+body {
+  background: gray;
+}
+
+.delete_m {
+  padding: 5%;
+  padding: 5%;
+  margin: 20% 30%;
+  background: white;
+}
+
+.decision {
+    padding:5%;
+    margin: 0%;
+    position: relative;
+    display:flex;
+}
+.cancel {
+  height: 5vh;
+  width:80px;
+  background: rgb(58, 174, 212);
+  border: none;
+  color: white;
+  margin-right: 1%;
+}
+.delete {
+  width:80px;
+  height: 5vh;
+  background: red;
+  border: none;
+  color: white;
+  margin-left: 1%;
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9108",
+    "review": "Gorgeous beaches with turquoise waters and white sand, perfect for a beach lover.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "review": "A truly unique and unforgettable experience. Highly recommend the Paradise Cave.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c910a",
+    "review": "We enjoyed the homestay experience, learning about traditional cooking and enjoying local cuisine.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a35b614eb5c17645c910b",
+    "review": "The lanterns and decorations in Hoi An at night are beautiful and add to the magical atmosphere.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910c",
+    "review": "Hoi An Ancient Town is a charming and picturesque destination. Highly recommend!",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a368c14eb5c17645c910d",
+    "review": "Bana Hills is a fantastic destination with a unique French village and stunning views. Highly recommend!",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a36a014eb5c17645c910e",
+    "review": "Sapa's natural beauty and unique culture make it a must-visit destination. Highly recommend!",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a36b714eb5c17645c910f",
+    "review": "Affordable accommodations and friendly locals make for a welcoming atmosphere.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a379a14eb5c17645c9110",
+    "review": "Enjoy an exhilarating ride on a quad bike through the mesmerizing Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a37b114eb5c17645c9111",
+    "review": "Phong Nha Ke Bang tour exceeded our expectations. The natural beauty of the park is truly stunning.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a37cb14eb5c17645c9112",
+    "review": "The historical sites in Hue Ancient Capital are breathtaking. A must-see for history buffs.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a37dd14eb5c17645c9113",
+    "review": "Dalat's cooler climate and scenic beauty make it a great place to visit. Highly recommend!",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a37f114eb5c17645c9114",
+    "review": "The cable car ride to the top of Bana Hills is breathtaking, with scenic views of the surrounding area.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a381714eb5c17645c9115",
+    "review": "A sensory experience with a stunning vista of sand and sea at Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a382d14eb5c17645c9116",
+    "review": "Breathtaking scenery and a knowledgeable guide made for an unforgettable Phong Nha Ke Bang tour.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a384114eb5c17645c9117",
+    "review": "Our guide was knowledgeable and friendly, providing great insights into Hue's rich history.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a385614eb5c17645c9118",
+    "review": "The tour guide was knowledgeable and provided great insights into the history and culture of the area.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a387214eb5c17645c9119",
+    "review": "The local markets in Hoi An were a great place to shop for souvenirs and handmade crafts.",
+    "rating": 5,
+    "user": "5c8a1ec62f8fb814b56fa183",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a38ac14eb5c17645c911a",
+    "review": "The tour guide was knowledgeable and provided great insights into the history and culture of Hoi An.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a38c714eb5c17645c911b",
+    "review": "We loved the scenic hikes through the terraced rice fields and mountain villages.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a38da14eb5c17645c911c",
+    "review": "The Crazy House was a highlight of the tour, a unique and fascinating architectural marvel.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a38ed14eb5c17645c911d",
+    "review": "We loved hiking through the terraced fields and experiencing the rural way of life.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a390d14eb5c17645c911e",
+    "review": "Breathtaking views and adrenaline-inducing ATV ride at Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a391f14eb5c17645c911f",
+    "review": "Authentic local experiences with traditional fishing villages and markets.",
+    "rating": 5,
+    "user": "5c8a211f2f8fb814b56fa188",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a395b14eb5c17645c9120",
+    "review": "Feel the tranquillity and calmness amidst the vast expanse of Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a399014eb5c17645c9121",
+    "review": "The locals were friendly and hospitable, and we enjoyed learning about their culture and traditions",
+    "rating": 4,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a39a214eb5c17645c9122",
+    "review": "The tour guide was knowledgeable and provided great insights into the history and culture of Sapa.",
+    "rating": 5,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a39b614eb5c17645c9123",
+    "review": "The Golden Bridge is a must-see attraction in Bana Hills, a unique and stunning architectural marvel.",
+    "rating": 3,
+    "user": "5c8a20d32f8fb814b56fa187",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3a7014eb5c17645c9124",
+    "review": "Beautiful resorts and luxurious accommodations for a high-end experience.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3a8d14eb5c17645c9125",
+    "review": "An adventure-packed trip with a touch of tranquillity at Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3a9914eb5c17645c9126",
+    "review": "Phong Nha Ke Bang tour was the highlight of our Vietnam trip. Highly recommend!",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a3aaa14eb5c17645c9127",
+    "review": "Hue Ancient Capital is a fascinating place with beautiful architecture and gardens.",
+    "rating": 4,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3abc14eb5c17645c9128",
+    "review": "We enjoyed exploring the flower gardens and greenhouses in Dalat. So many vibrant colors!",
+    "rating": 4,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3acf14eb5c17645c9129",
+    "review": "The Fansipan Mountain was a challenging but rewarding hike, with spectacular views from the summit.",
+    "rating": 5,
+    "user": "5c8a23c82f8fb814b56fa18d",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a3b1e14eb5c17645c912a",
+    "review": "The boat ride on the Thu Bon River was a peaceful and scenic experience, with beautiful views of the town.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a3b3214eb5c17645c912b",
+    "review": "The flower gardens in Bana Hills are beautiful and add to the charm of the destination.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3b4714eb5c17645c912c",
+    "review": "The coffee plantations in Dalat were a great addition to the tour, with informative tastings and scenic views.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3b6714eb5c17645c912e",
+    "review": "The perfect escape from the hustle and bustle of city life is Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3b7c14eb5c17645c912f",
+    "review": "Romantic hideaways for couples looking for a private escape.",
+    "rating": 5,
+    "user": "5c8a23de2f8fb814b56fa18e",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3b9f14eb5c17645c9130",
+    "review": "An amazing experience that I'll never forget. The natural beauty of the park is awe-inspiring.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a3bc414eb5c17645c9131",
+    "review": "We enjoyed the boat ride along the Perfume River, a great addition to the Hue Ancient Capital tour.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3bdc14eb5c17645c9132",
+    "review": "We had a fantastic time canyoning and hiking in the beautiful countryside surrounding Dalat.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3bf514eb5c17645c9133",
+    "review": "The indoor amusement park and arcade in Bana Hills were a great addition to the tour, especially for families with kids.",
+    "rating": 5,
+    "user": "5c8a24282f8fb814b56fa18f",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3c2514eb5c17645c9134",
+    "review": "Enjoy an exhilarating ride on a quad bike through the mesmerizing Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3c3b14eb5c17645c9135",
+    "review": "Our guide was fantastic and made the tour even more enjoyable. Don't miss out on Phong Nha Ke Bang!",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a3c5314eb5c17645c9136",
+    "review": "The Thien Mu Pagoda was stunning, and we enjoyed learning about its history and significance.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3c6814eb5c17645c9137",
+    "review": "The beauty of the rice terraces in Hoang Su Phi is indescribable. A must-visit destination!",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a3c7814eb5c17645c9138",
+    "review": "The tour guide was knowledgeable and provided great insights into the history and culture of Dalat.",
+    "rating": 4,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a3c9014eb5c17645c9139",
+    "review": "We enjoyed the peaceful atmosphere of Sapa, a great break from the hustle and bustle of the city.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a3ca314eb5c17645c913a",
+    "review": "We loved the art galleries and museums in Hoi An, showcasing the local culture and history.",
+    "rating": 5,
+    "user": "5c8a245f2f8fb814b56fa191",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a3cdc14eb5c17645c913b",
+    "review": "Sustainable tourism practices with eco-friendly activities and accommodations.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a3cf414eb5c17645c913c",
+    "review": "Get lost in the endless sea of sand at Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3d1e14eb5c17645c913d",
+    "review": "We loved the traditional Vietnamese lunch included in the Hue Ancient Capital tour. Delicious!",
+    "rating": 4,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3d3a14eb5c17645c913e",
+    "review": "The traditional costumes worn by the ethnic minority communities were beautiful and added to the charm of Sapa.",
+    "rating": 4,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a3d5314eb5c17645c913f",
+    "review": "We loved trying the local cuisine at the restaurants in Bana Hills, especially the delicious seafood.",
+    "rating": 5,
+    "user": "5c8a24822f8fb814b56fa192",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3d8614eb5c17645c9140",
+    "review": "The Fantasy Park in Bana Hills was a fun and entertaining experience, with many exciting rides and attractions.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a3d9b14eb5c17645c9141",
+    "review": "The tailor shops in Hoi An were a highlight of the tour, offering custom-made clothing at affordable prices, but the quality is not really good.",
+    "rating": 2,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a3de514eb5c17645c9143",
+    "review": "Hue Ancient Capital tour was an excellent way to learn about the history and culture of Vietnam.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a3e0714eb5c17645c9144",
+    "review": "Unleash your inner child with sandboarding at Mui Ne sand dunes.",
+    "rating": 5,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a3e63e12c44188b4dbc5b",
+    "review": "We loved the peaceful atmosphere of the countryside, a great break from the hustle and bustle of the city.",
+    "rating": 4,
+    "user": "5c8a24a02f8fb814b56fa193",
+    "tour": "5c88fa8cf4afda39709c2966"
+  }
+]

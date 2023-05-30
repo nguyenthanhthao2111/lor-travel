@@ -1,0 +1,97 @@
+extends base
+block append head 
+
+block content 
+    main.main
+            // Slider
+            #slider
+                img.img-fluid(src='./img/aboutUs_slider.jpeg' alt='')
+                .slider_title
+                    h1.slider_text ABOUT US
+            // Section Intro
+            #section-intro
+                .title
+                    h2.intro-title
+                      | Exciting tours for adventurous people
+
+
+                .row
+                    .intro-content.col-12.col-md-6
+                        h5.content-title
+                            | You&apos;re going to fall in love with unforgettable experiences
+                        p.content-des
+                            | Whether it is a trip across town or across continents, there is no doubt that traveling will be an enjoyable
+                            | experience.
+                        h5.content-title
+                            | Live adventurous like you never have before
+                        p.content-des
+                            | The reason why many people enjoy traveling
+                            | is because it gets them out of their routine and allows them to create a whole new memory
+                            | set in a place outside of their home or work environment.
+                    .img.col-12.col-md-6
+                        img.intro-img(src='./img/intro-img-1.jpg' alt='')
+                .row
+                    .img.col-12.col-md-6
+                        img.intro-img(src='./img/intro__img2.jpg' alt='')
+                    .intro-content.col-12.col-md-6
+                        .title
+                            h2.intro-title
+                               | Our vision
+                        p.content-des
+                           | Our commitment to sustainability and responsible travel means that
+                           | we strive to minimize our impact on the environment and support local communities.
+                           | We work with reputable partners who share our values, ensuring that your travels are not only unforgettable,
+                           | but also meaningful.
+
+
+            // BOXES
+            section.boxes
+                .container.text-center
+                    .row.boxes__card
+                        .col-lg.pb-5.boxes__card--outer
+                            .card.bg-light.text-dark.boxes__card--inner
+                                .card-body.text-center
+                                    .h1.mt-3.mb-3
+                                        i.bi.bi-globe2
+                                    h4.card-title.text-uppercase.fw-bold
+                                        | Explore the World
+                                    p.card-text
+                                        | Travel is a great way to explore the world, but it can be costly and not everyone has the means to
+                                        | travel frequently.
+                                        | However, there are oodles of ways to satisfy your wanderlust without having to spend a fortune on
+                                        | expensive plane tickets or overpriced hotels.
+                        .col-lg.pb-5.boxes__card--outer
+                            .card.bg-light.text-dark.boxes__card--inner
+                                .card-body.text-center
+                                    .h1.mt-3.mb-3
+                                        i.bi.bi-compass
+                                    h4.card-title.text-uppercase.fw-bold  
+                                        | Meet Natural 
+                                    p.card-text
+                                        | The beautiful bodies of water, mountains, and plains. The wild animals that inhabit these areas!
+                                        | When it comes to meeting Mother Nature, there is no better place to be than outside.
+                                        | The countryside is ideal for people who want to get away from the hustle and bustle of city life.
+                        .col-lg.pb-5.boxes__card--outer
+                            .card.bg-light.text-dark.boxes__card--inner
+                                .card-body.text-center
+                                    .h1.mt-3.mb-3
+                                        i.bi.bi-map
+                                    h4.card-title.text-uppercase.fw-bold
+                                        | Find your way
+                                    p.card-text
+                                        | People travel because they are curious about what is out there, but also because they might find
+                                        | themselves somewhere really interesting.
+                                        | This can happen when you go somewhere new with no expectations or plans, looking to explore or to see
+                                        | a different perspective of life altogether.
+                        .col-lg.pb-5.boxes__card--outer
+                            .card.bg-light.text-dark.boxes__card--inner
+                                .card-body.text-center
+                                    .h1.mt-3.mb-3
+                                        i.bi.bi-heart
+                                    h4.card-title.text-uppercase.fw-bold
+                                        | Live a healthy life
+                                    p.card-text
+                                        | Traveling is an excellent way to see the world, but many people are unaware that it can also be a
+                                        | healthy choice.
+                                        | These advantages include improved mental health, increased creativity, and improved problem-solving
+                                        | abilities.

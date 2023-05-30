@@ -1,0 +1,272 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign up</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./login-signup.css">
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="header">
+    <img src="./img/image_logo.png" alt="" class="header-logo">
+    <ul id="nav">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About us</a></li>
+      <li><a href="#">Tours</a></li>
+      <li><a href="./login.html">Login</a></li>
+    </ul>
+    <div id="mobile-menu" class="mobile-menu-btn">
+      <i class="menu-icon fas fa-bars"></i>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="row">
+      <div class="col-6 p-0">
+        <div class="signup-left-form">
+          <img src="img/image_logo.png" alt="">
+          <h5>Start your journey today</h5>
+          <h2 class="heading-welcome ma-bt-lg">Welcome to Lor Travel !</h2>
+        </div>
+      </div>
+
+      <div class="col-6 p-0">
+        <div class="signup-form">
+          <h2 class="heading-secondary ma-bt-lg">Sign up</h2>
+          <form class="form form--signup" action="/signup" method="POST">
+            <div class="form__group">
+              <label class="form__label" for="name">Name</label>
+              <input class="form__input" id="name" type="text" name="name" required="required" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email address</label>
+              <input class="form__input" id="email" type="email" name="email" required="required" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="phone">Phone number</label>
+              <input class="form__input" id="phone" type="phone" name="phone" required="required" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="password">Password</label>
+              <input class="form__input" id="password" type="password" name="password" minlength="8"
+                required="required" />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="passwordConfirm">Confirm Password</label>
+              <input class="form__input" id="passwordConfirm" type="password" name="passwordConfirm" minlength="8"
+                required="required" />
+            </div>
+            <div class="form__group">
+              <button class="btn--signUp">Sign up</button>
+            </div><a class="loginButton" href="/login">Already have an account? Login</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- form signup -->
+  <!-- <div class="signup">
+    <div class="signup__content">
+      <h1>SIGN UP</h1>
+      <form action="">
+        <label class="form__label" for="email">Name</label>
+        <input type="text" class="signup-username" placeholder="" />
+        <label class="form__label" for="email">Email address</label>
+        <input type="text" class="signup-username" placeholder="" />
+        <label class="form__label" for="email">Phone number</label>
+        <input type="text" class="signup-username" placeholder="" />
+        <label class="form__label" for="email">Password</label>
+        <input type="text" class="signup-password" placeholder="" />
+        <label class="form__label" for="email">Confirm password</label>
+        <input type="text" class="signup-password" placeholder="" />
+        <button type="submit" class="signupButton">SIGN UP</button>
+      </form>
+      <a href="./login.html" class="logInLink">
+        Already have an account? Login
+      </a>
+    </div>
+  </div> -->
+</body>
+<!-- Footer -->
+<footer class="text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="footer-sliders d-none d-sm-block">
+      <!--MEDIUM FOOTER-->
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="./img/img-13.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="./img/img-16.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="./img/img-17.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="./img/img-18.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="./img/img-19.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+            <img src="./img/img-20.jpg" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SMALL FOOTER-->
+    <div id="carouselExampleControls" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/img-13.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img-16.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img-17.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img-18.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img-19.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img-20.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Section: Links  -->
+  <section class="footer-links">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-none d-sm-block">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Lor Travel
+          </h6>
+          <p>
+            Our commitment to sustainability and responsible travel means that we strive to minimize our impact on the
+            environment and support local communities.
+            We work with reputable partners who share our values, ensuring that your travels are not only unforgettable,
+            but also meaningful.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-sm-block">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Popular Tour
+          </h6>
+          <p>
+            <a href="#!" class="text-reset"> Phu Quoc Island</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Mui Ne Sand Dunes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Hue Ancient Capital</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Da Lat</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Xuan Thuy, Cau Giay, Hanoi</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            lortravel@company.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 84 567 392 10</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 84 567 392 10</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="#">LOR TRAVEL</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<script src="./signup.js"></script>
+
+</html>

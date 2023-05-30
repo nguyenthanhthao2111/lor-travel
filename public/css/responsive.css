@@ -1,0 +1,135 @@
+@media (min-width:1024px) {}
+
+@media (min-width:740px) {}
+
+@media (max-width:46.1875em) {}
+
+@media (max-width: 991.98px) {
+
+    /*FLIPCARD*/
+    .flipcard {
+        margin-bottom: 8rem;
+    }
+
+    .btn-discover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 0;
+        top: 0.5rem;
+    }
+
+    .btn-discover button {
+        border-radius: 10rem;
+        position: absolute;
+        bottom: 0;
+        top: 0rem;
+        height: 3rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*POST*/
+
+    .post {
+        padding-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .post-title {
+        margin-top: 0rem;
+        color: var(--main-color);
+    }
+}
+
+@media (max-width:46.1875em) {
+
+        #nav {
+            display: block;
+            width: 100%;
+        }
+
+        #nav li {
+            display: block;
+        }
+
+
+        #header {
+            overflow: hidden;
+            /* responsive ẩn thanh navigation */
+        }
+
+        #header .mobile-menu-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+        }
+
+        .header-logo {
+            display: none
+        }
+
+        .slider-text {
+            position: absolute;
+            flex-wrap: nowrap;
+            flex-basis: 33%;
+        }
+
+    /* @media (max-width:30.311em) {
+    .text-description {
+        display: none;
+    }
+    .text-break {
+
+    
+    .carousel .slider-text {
+        bottom:30%;
+
+
+}
+
+    
+    .carousel .slider-text {
+        bottom:30%;
+
+        font-size: 30px;
+        letter-spacing: 1rem;
+        font-weight: 600;
+        min-width: 100%;
+    }
+
+
+} */
+
+
+
+    .text-description {
+        display: none
+    }
+}
+
+    @media (max-width:33.311em) {
+        .carousel-indicators {
+            display: none;
+        }
+
+        .text-description {
+            display: none
+        }
+
+        .carousel .slider-text {
+            bottom: 40%;
+        }
+
+        .text-break {
+            bottom: 50%;
+            font-size: 2rem;
+            letter-spacing: 1rem;
+        }
+
+    }

@@ -1,0 +1,33 @@
+extends base
+block append head 
+  title Login
+  link(rel='stylesheet' href='/css/login-signup.css')
+  // font roboto
+  link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap' rel='stylesheet')
+  script(src='/js/login.js')
+  
+block content
+    main.main
+        .flex-container 
+            .login-left-form
+                    img(src='img/image_logo.png' alt='')
+                    h5 Nice to see you again
+                    h2.heading-welcome.ma-bt-lg Welcome back !
+                    h5 To keep connected with us, 
+                        br 
+                        | please login with your personal infor
+            .login-form
+                h2.heading-secondary.ma-bt-lg Log into your account
+                form.form.form--login
+                    .form__group
+                        label.form__label(for='email') Email address
+                        input#email.form__input(type='email', placeholder='you@example.com', required)
+                    .form__group.ma-bt-md
+                        label.form__label(for='password') Password
+                        input#password.form__input(type='password', placeholder='••••••••', required, minlength='8')
+                    .form__group
+                        button.btn--login Login
+                    a.loginButton(href='/resetPassword') Forgot your password?
+                    a.loginButton(href='/signup') Don&apos;t have an account? Register
+            
+

@@ -1,0 +1,470 @@
+[
+  {
+    "startLocation": {
+      "description": "Kien Giang, VN",
+      "type": "Point",
+      "coordinates": [-80.185942, 25.774772],
+      "address": "Ong Lang Beach, Phu Quoc Island, Kien Giang Province, VN"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": ["tour-2-1.jpg", "tour-2-2.jpg", "tour-2-3.jpg"],
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2955",
+    "name": "Phu Quoc Island",
+    "duration": 7,
+    "maxGroupSize": 10,
+    "difficulty": "medium",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
+    "price": 497,
+    "summary": "Vietnamese island known for beaches and fish sauce.",
+    "description": "Phu Quoc Island tour offers stunning beaches, crystal-clear waters, delicious seafood, and mesmerizing sunsets, perfect for a relaxing getaway.",
+    "imageCover": "tour-2-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "description": "Ong Lang Beach",
+        "type": "Point",
+        "coordinates": [-80.128473, 25.781842],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2958",
+        "description": "Truong Beach",
+        "type": "Point",
+        "coordinates": [-80.647885, 24.909047],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2957",
+        "description": "Vung Bau Beach",
+        "type": "Point",
+        "coordinates": [-81.0784, 24.707496],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2956",
+        "description": "Rach Vem Beach",
+        "type": "Point",
+        "coordinates": [-81.768719, 24.552242],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Binh Thuan, VN",
+      "type": "Point",
+      "coordinates": [-115.570154, 51.178456],
+      "address": "Hong Lam Hamlet, Hoa Thang Commune, Mui Ne, VN"
+    },
+    "ratingsAverage": 5,
+    "ratingsQuantity": 9,
+    "images": ["tour-1-1.jpg", "tour-1-2.jpg", "tour-1-3.jpg"],
+    "startDates": [
+      "2021-04-25T09:00:00.000Z",
+      "2021-07-20T09:00:00.000Z",
+      "2021-10-05T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2951",
+    "name": "Mui Ne Sand Dunes",
+    "duration": 10,
+    "maxGroupSize": 20,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a1f292f8fb814b56fa184"
+    ],
+    "price": 699,
+    "summary": "Vietnamese coastal dunes popular for sandboarding and sunsets.",
+    "description": "A Mui Ne Sand Dunes tour takes you to stunning red and white sand dunes, offering a unique desert-like experience in Vietnam.",
+    "imageCover": "tour-1-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2954",
+        "description": "White Sand Dunes",
+        "type": "Point",
+        "coordinates": [-116.214531, 51.417611],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2953",
+        "description": "Red Sand Dunes",
+        "type": "Point",
+        "coordinates": [-118.076152, 52.875223],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2952",
+        "description": "Mui Ne Harbor",
+        "type": "Point",
+        "coordinates": [-117.490309, 51.261937],
+        "day": 7
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Binh Duong, VN",
+      "type": "Point",
+      "coordinates": [-106.822318, 39.190872],
+      "address": "25, GS1 Road, Dong Hoa, Di An, Binh Duong, VN"
+    },
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 6,
+    "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
+    "startDates": [
+      "2022-01-05T10:00:00.000Z",
+      "2022-02-12T10:00:00.000Z",
+      "2023-01-06T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c295a",
+    "name": "Phong Nha Ke Bang",
+    "duration": 3,
+    "maxGroupSize": 30,
+    "difficulty": "difficult",
+    "guides": [
+      "5c8a21d02f8fb814b56fa189",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 300,
+    "summary": "Explore Vietnam's natural wonder with Phong Nha Ke Bang tour.",
+    "description": "Discovering stunning caves, underground rivers, and unique geological formations in Vietnam's UNESCO World Heritage Site.",
+    "imageCover": "tour-3-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c295c",
+        "description": "Kayaking Chay River",
+        "type": "Point",
+        "coordinates": [-106.855385, 39.182677],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295b",
+        "description": "Playing Zipline",
+        "type": "Point",
+        "coordinates": [-106.516623, 39.60499],
+        "day": 2
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Quang Tri, VN",
+      "type": "Point",
+      "coordinates": [-115.172652, 36.110904],
+      "address": "FH9H+M5Q, Hue City, Thua Thien Hue, VN"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 7,
+    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
+    "startDates": [
+      "2021-08-05T09:00:00.000Z",
+      "2022-03-20T10:00:00.000Z",
+      "2022-08-12T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "Hue Ancient Capital",
+    "duration": 10,
+    "maxGroupSize": 30,
+    "difficulty": "medium",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a23412f8fb814b56fa18c",
+      "5c8a201e2f8fb814b56fa186"
+    ],
+    "price": 699,
+    "summary": "Discovering the Hue ancient city's charm and character.",
+    "description": "A Hue Ancient Capital tour takes you back in time to explore the rich history, architecture, and culture of the former imperial capital of Vietnam.",
+    "imageCover": "tour-5-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "description": "The Ancient Capital",
+        "type": "Point",
+        "coordinates": [-112.987418, 37.198125],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "Bach Ma National Park",
+        "type": "Point",
+        "coordinates": [-111.376161, 36.86438],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "description": "Thien Mu Pagoda",
+        "type": "Point",
+        "coordinates": [-112.115763, 36.058973],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2962",
+        "description": "Tomb of Minh Mang",
+        "type": "Point",
+        "coordinates": [-116.107963, 34.011646],
+        "day": 9
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Ha Giang, VN",
+      "type": "Point",
+      "coordinates": [-73.985141, 40.75894],
+      "address": "Ha Giang, VN"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 5,
+    "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
+    "startDates": [
+      "2021-03-11T10:00:00.000Z",
+      "2021-05-02T09:00:00.000Z",
+      "2021-06-09T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c295d",
+    "name": "Hoang Su Phi",
+    "duration": 7,
+    "maxGroupSize": 30,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
+    "price": 799,
+    "summary": "Explore the terraced rice fields of Hoang Su Phi, Vietnam.",
+    "description": "Discover the stunning natural beauty of Hoang Su Phi and its ethnic minority cultures through trekking and homestay experiences.",
+    "imageCover": "tour-4-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "description": "Ban Phung Terraced Fields",
+        "type": "Point",
+        "coordinates": [-73.967696, 40.781821],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295f",
+        "description": "Ho Thau Terraced Fields",
+        "type": "Point",
+        "coordinates": [-118.324396, 34.097984],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295e",
+        "description": "Thong Nguyen Terraced Fields",
+        "type": "Point",
+        "coordinates": [-122.408865, 37.787825],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Lam Dong, VN",
+      "type": "Point",
+      "coordinates": [-118.803461, 34.006072],
+      "address": "Dalat Capital, Lam Dong, VN"
+    },
+    "ratingsAverage": 3.9,
+    "ratingsQuantity": 7,
+    "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
+    "startDates": [
+      "2021-07-19T09:00:00.000Z",
+      "2021-09-06T09:00:00.000Z",
+      "2022-03-18T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2966",
+    "name": "Dalat",
+    "duration": 15,
+    "maxGroupSize": 20,
+    "difficulty": "difficult",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a1f292f8fb814b56fa184",
+      "5c8a1f4e2f8fb814b56fa185"
+    ],
+    "price": 1499,
+    "summary": "Experience the charm of Dalat, Vietnam's City of Eternal Spring.",
+    "description": "Enjoy the cool climate, scenic views, and French colonial architecture of Dalat, known for its romantic atmosphere and outdoor activities.",
+    "imageCover": "tour-6-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c296b",
+        "description": "Datanla Falls",
+        "type": "Point",
+        "coordinates": [-118.809361, 34.003098],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296a",
+        "description": "Valley of Love",
+        "type": "Point",
+        "coordinates": [-118.47549, 33.987367],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2969",
+        "description": "Dalat Flower Park",
+        "type": "Point",
+        "coordinates": [-116.830104, 33.022843],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2968",
+        "description": "Elephant Falls",
+        "type": "Point",
+        "coordinates": [-118.4547, 35.710359],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2967",
+        "description": "Thien Vuong Co Sat Pagoda",
+        "type": "Point",
+        "coordinates": [-119.600492, 37.742371],
+        "day": 11
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Lao Cai, VN",
+      "type": "Point",
+      "coordinates": [-109.55099, 37.283469],
+      "address": "Hoang Lien Son mountain, Lao Cai, VN"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": ["tour-8-1.jpg", "tour-8-2.jpg", "tour-8-3.jpg"],
+    "startDates": [
+      "2021-03-23T10:00:00.000Z",
+      "2021-10-25T09:00:00.000Z",
+      "2022-01-30T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2970",
+    "name": "The Sapa Tour",
+    "duration": 9,
+    "maxGroupSize": 8,
+    "difficulty": "medium",
+    "guides": ["5c8a21d02f8fb814b56fa189", "5c8a1f292f8fb814b56fa184"],
+    "price": 499,
+    "summary": "Trek through Sapa's stunning rice terraces and ethnic villages.",
+    "description": "Immerse yourself in the unique culture and natural beauty of Sapa, where hill tribes and breathtaking landscapes await.",
+    "imageCover": "tour-8-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2973",
+        "description": "Fansipan Mountain",
+        "type": "Point",
+        "coordinates": [-109.99953, 37.629017],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2972",
+        "description": "Thac Bac Waterfall",
+        "type": "Point",
+        "coordinates": [-111.50954, 36.883269],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2971",
+        "description": "Muong Hoa Valley",
+        "type": "Point",
+        "coordinates": [-117.07399, 36.501435],
+        "day": 6
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Da Nang, VN",
+      "type": "Point",
+      "coordinates": [-114.406097, 62.439943],
+      "address": "Hoa Vinh, Hoa Vang, Da Nang, VN"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 7,
+    "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
+    "startDates": [
+      "2021-12-16T10:00:00.000Z",
+      "2022-01-16T10:00:00.000Z",
+      "2022-12-12T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2974",
+    "name": "Bana Hills",
+    "duration": 3,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "guides": [
+      "5c8a21f22f8fb814b56fa18a",
+      "5c8a201e2f8fb814b56fa186",
+      "5c8a23412f8fb814b56fa18c"
+    ],
+    "price": 399,
+    "summary": "Visit the magical world of Bana Hills, Vietnam's hilltop resort.",
+    "description": "Experience a European-style village in the clouds, ride the world's longest cable car, and marvel at stunning panoramic views.",
+    "imageCover": "tour-9-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2975",
+        "description": "Bana Hills",
+        "type": "Point",
+        "coordinates": [-114.406097, 62.439943],
+        "day": 1
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Da Nang, VN",
+      "type": "Point",
+      "coordinates": [-122.29286, 38.294065],
+      "address": "Quang Nam, Da Nang, VN"
+    },
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 7,
+    "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
+    "startDates": [
+      "2021-02-12T10:00:00.000Z",
+      "2021-04-14T09:00:00.000Z",
+      "2021-09-01T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c296c",
+    "name": "Hoi An Ancient Town",
+    "duration": 5,
+    "maxGroupSize": 8,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a23412f8fb814b56fa18c"],
+    "price": 999,
+    "summary": "Step back in time at Hoi An Ancient Town, Vietnam.",
+    "description": "Discover the rich history and cultural heritage of Hoi An Ancient Town, a UNESCO World Heritage Site renowned for its architecture and cuisine.",
+    "imageCover": "tour-7-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c296f",
+        "description": "Fukian Assembly Hall",
+        "type": "Point",
+        "coordinates": [-122.479887, 38.510312],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296e",
+        "description": "Hoi An Ancient Town",
+        "type": "Point",
+        "coordinates": [-122.582948, 38.585707],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296d",
+        "description": "Old House of Tan Ky",
+        "type": "Point",
+        "coordinates": [-122.434697, 38.482181],
+        "day": 5
+      }
+    ]
+  }
+]

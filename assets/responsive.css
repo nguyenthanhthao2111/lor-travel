@@ -1,0 +1,115 @@
+
+
+@media (max-width: 991.98px) {
+    /*POST*/
+
+    .post {
+        padding-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .post-title {
+        margin-top: 0rem;
+        color: var(--main-color);
+    }
+}
+
+@media (max-width:46.1875em) {
+
+        #nav {
+            display: block;
+            width: 100%;
+        }
+
+        #nav li {
+            display: block;
+        }
+
+
+        #header {
+            overflow: hidden;
+        }
+
+        #header .mobile-menu-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+        }
+
+        .header-logo {
+            display: none
+        }
+
+        .slider-text {
+            position: absolute;
+            flex-wrap: nowrap;
+            flex-basis: 33%;
+        }
+        .text-description {
+        display: none
+        }
+        .slider_text {
+            color: #fff;
+            letter-spacing: 1rem;
+            font-weight: 500;
+            font-size: 50px;
+        }
+
+}
+
+
+@media (max-width:40.1875em){
+    .text-break {
+        letter-spacing: 1rem;
+        font-weight: 600;
+        font-size: 60px;
+    }
+    .slider_title {
+        top:30%;
+    }
+    .slider_text {
+        color: #fff;
+        letter-spacing: 1rem;
+        font-weight: 800;
+        font-size: 50px;
+    }
+}
+    @media (max-width:33.311em) {
+        .carousel-indicators {
+            display: none;
+        }
+
+        .text-description {
+            display: none
+        }
+
+        .carousel .slider-text {
+            bottom: 40%;
+        }
+
+        .text-break {
+            bottom: 50%;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+        #slider .btn-booking{
+            font-size: 12px;
+            height: 30px;
+            width:100px;
+        }
+        .slider_title {
+            top:20%;
+        }
+        .slider_text {
+            color: #fff;
+            letter-spacing: 1rem;
+            font-weight: 800;
+            font-size: 30px;
+        }
+
+    }
+
+
+
+  
